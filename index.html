@@ -6,10 +6,16 @@
   <title>Welcome to the Secret Club</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+      @font-face {
+  font-family: 'b-0';
+  src: url('./b-0.ttf') format('truetype'); /* Update the path to the font file */
+  font-weight: normal;
+  font-style: normal;
+      }
     body {
       background-color: #000;
       color: #fff;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
+      font-family: 'b-0', cursive, sans-serif;
       text-align: center;
       margin-top: 150px;
     }
@@ -63,14 +69,73 @@
       height: 100px; /* Adjust the height as desired */
     }
   </style>
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-MY0CBEF3W4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MY0CBEF3W4');
-</script>
+  <script src="./function.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VM6ZQV0H8H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-VM6ZQV0H8H');
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        var consentCookie = localStorage.getItem('cookieConsent');
+        if (!consentCookie) {
+          $('.cookie-banner').fadeIn();
+        }
+      });
+  
+      function acceptCookies() {
+        $('.cookie-banner').fadeOut();
+        localStorage.setItem('cookieConsent', true);
+      }
+    </script>
+    <style>
+      .cookie-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        display: none;
+      }
+  
+      .cookie-banner button {
+        background-color: #f1d600;
+        color: #000;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+    </style>
+  <script src="./function.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VM6ZQV0H8H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-VM6ZQV0H8H');
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        var consentCookie = localStorage.getItem('cookieConsent');
+        if (!consentCookie) {
+          $('.cookie-banner').fadeIn();
+        }
+      });
+  
+      function acceptCookies() {
+        $('.cookie-banner').fadeOut();
+        localStorage.setItem('cookieConsent', true);
+      }
+    </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
       $(document).ready(function() {
