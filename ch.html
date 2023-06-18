@@ -43,6 +43,16 @@
     }
   </style>
   <script>
+    window.onload = function() {
+      var result = confirm("Are you sure you want to continue?");
+      if (result) {
+        // User clicked OK, continue with any desired action
+      } else {
+        // User clicked Cancel, handle the cancellation or perform any desired action
+      }
+    };
+ </script>
+  <script>
     // Redirect to a surprising YouTube video after 5 seconds
     setTimeout(function() {
       window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
